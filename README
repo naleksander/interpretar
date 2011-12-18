@@ -1,0 +1,22 @@
+# interpretar
+
+Define set of macros and functions, write some declarative statements in XML and
+let the interpreter do the job.
+The example usage scenario are: defining UI in declerative manner, writing validation logic,
+writing factories, defining actors logic.
+Implementation is light and standard enought to be used in JME or GWT environment.
+The difference between macro and function is the arguments evaluation moment. In the first case the arguments
+are evaluated explicite by author of the macro, in the second case the arguments are evaluated implicite before
+calling function. 
+
+## License
+
+Copyright (C) 2011 Aleksander Naszko
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+You must not remove this notice, or any other, from this software.
+
+Distributed under the Eclipse Public License.
